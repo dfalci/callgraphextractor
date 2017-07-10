@@ -10,7 +10,7 @@ import numpy as np
 import math
 from collections import Counter
 
-class FUMECRedesSociais:
+class NetworkXHandling:
 
     def __init__(self, file):
         self.file = file
@@ -106,7 +106,7 @@ class FUMECRedesSociais:
 
         plt.show()
 
-o = FUMECRedesSociais("test.gexf") # gexfFile deve estar na versão 1.0
+o = NetworkXHandling("test.gexf") # gexfFile deve estar na versão 1.0
 o.load()
 o.scaleFree('GRAU', -2.8, 9.1)
 #o.scaleFree('GRAU DE ENTRADA', -1.9, 8.3)
