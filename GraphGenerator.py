@@ -138,7 +138,7 @@ class NetworkHandle:
 
 
 
-l = NetworkHandle('trabalhofinal.gexf')
+l = NetworkHandle('network.gexf')
 #l.calculateModularityClasses()
 l.calcularNossaMetrica()
 
